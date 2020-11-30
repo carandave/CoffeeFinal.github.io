@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+        <script src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <title>COFFEE SHOP</title>
+    </head>
+    <body>  
+       <div class="container">
+         <nav class="navcontainer" id="home">
+             <ul>
+                 <li><a class="active" href="#home">HOME</a></li>
+                 <li><a href="#section2">GOALS</a></li>
+                 <li><a href="#contacts">CONTACT</a></li>
+                 <li><a href="#section1">SERVICES</a></li>                                   
+             </ul>
+         </nav>
+          <div class="first" id="home">             
+             <h1>Lovely's Online Coffee Shop</h1>
+             <h6>No.1 Coffee in the Philippines</h6>           
+  
+            <button class="orderbtn">Order Now</button>
+        
+        </div>
+       </div>
+    
+        <section class="section1" id="section1">
+          <div class="maincard">
+             <div class="card1">
+                <h1 class="nop">CAPPUSINO</h1>
+                <img class="cardimage1"src="pict/card1.jpg">
+                <p class="secondpar">Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top.</p>
+                <button onclick ="displayMe()" class="btn">ORDER</button>
+             </div>
+              
+            <div class="card2">
+                <h1 class="nop">MOCHA</h1>
+                <img class="cardimage1"src="pict/card2.jpg">
+                <p class="secondpar">For all you chocolate lovers out there, you’ll fall in love with a mocha (or maybe you already have). The mocha is a chocolate espresso drink with steamed milk and foam.</p>
+                <button onclick="displayMe()"class="btn">ORDER</button>
+                </div>
+          
+            <div class="card3">
+                <h1 class="nop">EXPRESSO</h1>                       
+                <img class="cardimage1"src="pict/card3.jpg">
+                <p class="secondpar">An espresso shot can be served solo or used as the foundation of most coffee drinks, like lattes and macchiatos.</p>
+                <button onclick="displayMe()"class="btn">ORDER</button>
+                </div>                                                            
+            </div>
+            <div class="containerview">
+            <button class="viewbtn">VIEW ALL PRODUCTS</button>
+            </div>
+        </section>
+        
+        <section class="section2" id="section2">
+                <h1 class="goalsheading">GOALS</h1>
+               <div class="maingoals">
+                 <div class="goalsimg">
+                 <img class="profile"src="pict/coffee1.jpg">
+                 </div>
+                 <div class="goalspar">
+                 <p>Our aim is to provide you with the best experience every visit, and we know it starts with the quality of our coffee.</p>
+                 <p>Every cup we serve has a story: the origin of the beans, how the fruits were harvested and processed, how the beans were roasted. We recognise the importance of each and every actor and process involved in the creation of your favorite drink.</p>
+                 <p>We make sure that only the best coffee beans are ground and brewed at our shop. The end result? A masterpiece in a cup.</p>
+                 <p>Come visit and try the experience.</p>
+                </div>
+               </div>
+        </section>
+        
+        <div class="maincontact" id="contacts">
+            <div class="contact">
+                <div class="contactme">
+                   <h1>Contact Us</h1>
+                   <i class="icon fas fa-envelope-square"></i>
+                </div>
+              
+                <form class="form">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="E-mail">
+                    <input type="number" placeholder="Number">
+                    <textarea rows="10" cols="10" placeholder="Message"></textarea>
+                    <input type="submit" onclick="displaybtn" value="Submit">
+                </form>                                 
+            </div>
+        </div>
+        
+        <footer>
+            <p>Copyright 2020 Coffee Shop Inc.</p>
+        </footer>
+        
+        <div class="up">           
+            <a href="#home"><i class="fas fa-chevron-up"></i></a>         
+        </div>
+
+        
+        </body>
+</html>
